@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div id="help-center-container">Help Center Container</div>
+    <script>
+        window.helpCenter = {
+            course: "Programming Basics with Java",
+            lesson: "While Loops",
+            section: "Problem Old Books",
+            author: {
+                id: "01949fd9-cdde-422f-884b-da3028fe0597",
+                name: "Simina Tabac"
+            },
+            url: document.location,
+            targetContainer: "#help-center-container"
+        }
+    </script>
+    <script src="/help-center-client/help-center.jsx"></script>
+</div>

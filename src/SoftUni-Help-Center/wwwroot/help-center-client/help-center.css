@@ -1,0 +1,102 @@
+﻿#help-center {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 5px;
+}
+    
+    #help-center .categories-panel {
+        grid-column: 1;
+    }
+
+    #help-center .content-panel {
+        grid-column: 2;
+    }
+
+    #help-center header {
+        background: #eee;
+        border-radius: 3px;
+    }
+
+        #help-center header h1 {
+            font-size: 1em;
+            padding: 6px;
+            margin: 0;
+        }
+
+    #help-center nav section {
+        background: #eee;
+        border-radius: 3px;
+        padding: 12px 10px 2px 10px;
+        margin: 5px 0px;
+    }
+
+        #help-center nav section.active {
+            background: #c1c1c1;
+            border: 3px solid #bbb;
+            box-shadow: 0 0 5px #bbb;
+        }
+
+    #help-center nav .administrative-category-panel:hover,
+    #help-center nav .community-category-panel:hover {
+        background: #777;
+        color: #eee;
+        border-color: #777;
+        cursor: pointer;
+    }
+
+    #help-center nav section ul li:hover,
+    #help-center nav section ul li.active:hover {
+        background: #777;
+        color: #eee;
+        border-color: #777;
+        cursor: pointer;
+        box-shadow: none;
+    }
+
+        #help-center nav section h2 {
+            margin: 0px 0px 8px 0px;
+            font-size: 0.9em;
+        }
+
+        #help-center nav section ul {
+            padding: 0;
+        }
+
+            #help-center nav section ul li {
+                list-style-type: none;
+                border-radius: 3px;
+                background: #ddd;
+                width: calc(100% - 10px);
+                margin: 0 auto;
+                padding: 3px 0px;
+                margin: 4px 0px;
+            }
+
+                #help-center nav section ul li.active {
+                    color: #fbfbfb;
+                    background: #a5a5a5;
+                    border: 1px solid #a0a0a0;
+                    box-shadow: 0 0 2px #777;
+                }
+
+    #help-center .content-body-panel {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 5px;
+    }
+
+        #help-center .content-body-panel section:nth-child(1) {
+            grid-column: 1;
+        }
+
+        #help-center .content-body-panel section:nth-child(2) {
+            grid-column: 2;
+        }
+
+        #help-center .content-body-panel h2 {
+            margin: 10px 0px 8px 0px;
+            font-size: 0.9em;
+        }
+
