@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace HelpCenter.Web
+namespace HelpCenter.Backend
 {
     public class Program
     {

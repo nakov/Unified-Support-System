@@ -1,6 +1,6 @@
 using System;
 
-namespace HelpCenter.Web.Models
+namespace HelpCenter.Backend.Models
 {
     public class ErrorViewModel
     {

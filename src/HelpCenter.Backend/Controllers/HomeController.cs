@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using HelpCenter.Web.Models;
+using HelpCenter.Backend.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace HelpCenter.Web.Controllers
+namespace HelpCenter.Backend.Controllers
 {
     public class HomeController : Controller
     {

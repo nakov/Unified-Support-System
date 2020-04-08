@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HelpCenter.Web.Models;
+using HelpCenter.Backend.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HelpCenter.Web.Controllers
+namespace HelpCenter.Backend.Controllers
 {
     [Route("api/questions")]
     [ApiController]

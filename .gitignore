@@ -1,6 +1,4 @@
-/src/HelpCenter.Data/bin
-/src/HelpCenter.Data/obj
-/src/SoftUni-Help-Center/.vs
-/src/SoftUni-Help-Center/obj
-/src/SoftUni-Help-Center/bin
-/docs/~$SoftUni-Help-Center-UI-Prototype.pptx
+bin
+obj
+.vs
+~$SoftUni-Help-Center-UI-Prototype.pptx

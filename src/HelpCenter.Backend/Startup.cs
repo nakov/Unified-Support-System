@@ -11,7 +11,7 @@ using React.AspNet;
 using JavaScriptEngineSwitcher.Extensions.MsDependencyInjection;
 using JavaScriptEngineSwitcher.V8;
 
-namespace HelpCenter.Web
+namespace HelpCenter.Backend
 {
     public class Startup
     {
