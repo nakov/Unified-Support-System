@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 import { Switch, Route } from 'react-router';
 import styled from 'styled-components';
 
@@ -23,7 +23,7 @@ const StyledContainer = styled.div`
 
 function App() {
   return (
-    <BrowserRouter>
+    <MemoryRouter>
         <StyledContainer>
           <SideNavigation />
           <Switch>
@@ -36,7 +36,7 @@ function App() {
             <Route path="/section" component={Section} />
           </Switch>
         </StyledContainer>
-    </BrowserRouter>
+    </MemoryRouter>
   );
 }
 

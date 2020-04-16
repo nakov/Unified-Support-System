@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AdministrativeContainer() {
+function AdministrativeContainer(props) {
     return (
         <div>
             Administrative View
