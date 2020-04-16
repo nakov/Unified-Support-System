@@ -1,0 +1,4 @@
+https://github.com/FortAwesome/react-fontawesome
+https://fontawesome.com/icons?d=gallery
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://stackoverflow.com/questions/39721812/react-router-without-changing-url
