@@ -17,6 +17,14 @@ nav {
     min-height: 95vh;
 }
 
+.help-center {
+    min-height: 95vh;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 2%;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -24,6 +32,13 @@ nav {
 
 .bold {
     font-weight: bold;
+}
+
+/* Question List  */
+.question-list {
+    border: 1px solid;
+    padding: 2%;
+    background-color: #eee;
 }
 
 /* Search  */
@@ -80,7 +95,6 @@ label {
     justify-content: center;
 }
 
-
 select {
     position: absolute;
     left: 0;
@@ -97,27 +111,12 @@ select option {
   color: #fff;
   background-color: #777;
   border-radius: 5px;
-
 }
 
 /* Question Card */
 
 header {
     align-items: center;
-}
-
-.help-center {
-    min-height: 95vh;
-    border: 1px solid;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 2%;
-}
-
-.question-list {
-    border: 1px solid;
-    padding: 2%;
-    background-color: #eee;
 }
 
 a {
