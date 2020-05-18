@@ -1,0 +1,38 @@
+.help-center__nav__technical-panel {
+    background: #eee;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.help-center__nav__technical-panel ul {
+    padding: 10px;
+}
+
+.help-center__nav__technical-panel li {
+    list-style-type: none;
+    border-radius: 3px;
+    background: #ddd;
+    width: calc(100% - 10px);
+    margin: 0 auto;
+    padding: 3px 0px;
+    margin: 4px 0px;
+    text-align: center;
+    margin: 10px 5px 10px 5px;
+}
+
+.help-center__nav__technical-panel li:hover {
+    background-color: #777;
+    color: #eee;
+}
+
+.help-center__nav__technical-panel h2 {
+    font-size: 1em;
+    padding: 6px;
+    margin: 5px;
+    text-align: center;
+}
+
+.help-center__nav__technical-panel svg {
+    display: block;
+    margin: auto;
+}

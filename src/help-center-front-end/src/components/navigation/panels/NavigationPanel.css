@@ -1,0 +1,22 @@
+.help-center__nav__panel {
+    background: #eee;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.help-center__nav__panel:hover {
+    background-color: #777;
+    color: #eee;
+}
+
+.help-center__nav__panel h2 {
+    font-size: 1em;
+    padding: 6px;
+    margin: 5px;
+    text-align: center;
+}
+
+.help-center__nav__panel svg {
+    display: block;
+    margin: auto;
+}
