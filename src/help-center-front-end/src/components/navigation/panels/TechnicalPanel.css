@@ -1,11 +1,11 @@
 .help-center__nav__technical-panel {
     background: #eee;
     border-radius: 5px;
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .help-center__nav__technical-panel ul {
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .help-center__nav__technical-panel li {
@@ -13,11 +13,9 @@
     border-radius: 3px;
     background: #ddd;
     width: calc(100% - 10px);
-    margin: 0 auto;
-    padding: 3px 0px;
-    margin: 4px 0px;
+    padding: 0.2rem 0;
     text-align: center;
-    margin: 10px 5px 10px 5px;
+    margin: 0.6rem 0.4rem;
 }
 
 .help-center__nav__technical-panel li:hover {
@@ -27,8 +25,8 @@
 
 .help-center__nav__technical-panel h2 {
     font-size: 1em;
-    padding: 6px;
-    margin: 5px;
+    padding: 0.4rem;
+    margin: 0.3rem;
     text-align: center;
 }
 
