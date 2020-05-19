@@ -1,7 +1,8 @@
 import React from 'react';
 
-import NavigationPanel from './panels/NavigationPanel';
-import TechnicalNavPanel from './panels/TechnicalPanel';
+import NavigationPanel from './Panels/NavigationPanel';
+import TechnicalNavPanel from './Panels/TechnicalPanel';
+
 import { 
     faHome, 
     faAddressCard, 

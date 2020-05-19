@@ -1,5 +1,5 @@
 import React from 'react';
-import QuestionList from '../Question/Question-List/QuestionList.js';
+import QuestionList from '../../../components/Question/Question-List/QuestionList'
 
 import '../Technical.css';
 
