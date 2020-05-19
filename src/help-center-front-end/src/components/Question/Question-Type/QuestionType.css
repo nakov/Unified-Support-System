@@ -1,0 +1,38 @@
+
+/* Question Type */
+
+.question-area__side-content__question-type {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #ddd;
+    padding: 0.6rem;
+    margin: 0.3rem;
+}
+
+.question-area__side-content__question-type:hover {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+}
+
+.question-area__side-content__question-type header {
+    margin: 0.9rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.question-area__side-content__question-type header h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.question-area__side-content__question-type p {
+    margin: 0;
+    padding: 0;
+}
+
+.question-area__side-content__question-type header svg {
+    font-size: 3rem;
+    padding-right: 2rem;
+}
