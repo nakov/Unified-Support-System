@@ -15,7 +15,7 @@ function QuestionSearch() {
             </button>
             <input type="text" placeholder="Search..." />
             <div className="question-area__main-content__search-form__select-wraper">
-                <label for="question-area__main-content__search-form__custom-select">
+                <label htmlFor="question-area__main-content__search-form__custom-select">
                     <FontAwesomeIcon icon={faSortAmountDown} />
                 </label>
                 <select id="question-area__main-content__search-form__custom-select">

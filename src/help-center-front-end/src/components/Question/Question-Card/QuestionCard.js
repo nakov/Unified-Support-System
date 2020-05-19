@@ -8,10 +8,12 @@ import {
 import './QuestionCard.css';
 
 function QuestionCard(props) {
-    const { title, description, firstName, lastName, answers, createdOn, dislikes, likes } = props;
+
+    const { id, title, description, firstName, lastName, answers, createdOn, dislikes, likes } = props;
 
     return (
-        <a href="">
+        <a className="question-area__main-content__item-card--link" 
+          onClick={(e) => props.selectQuestionHandler(e, id)} href="/">
             <div className="question-area__main-content__item-card">
                 <header className="question-area__flex">
                     <img src="" alt="" />

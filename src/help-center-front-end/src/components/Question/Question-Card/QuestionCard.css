@@ -8,6 +8,10 @@
     background-color: #ddd;
 }
 
+.question-area__main-content__item-card--link {
+    cursor: pointer;
+}
+
 .question-area__main-content__item-card__elipsis {
     white-space: nowrap;
     width: 100%;
