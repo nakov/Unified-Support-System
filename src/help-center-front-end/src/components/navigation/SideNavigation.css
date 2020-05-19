@@ -1,6 +1,8 @@
 .help-center__nav {
     border: 5px solid #eee;
     padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .help-center__nav a {

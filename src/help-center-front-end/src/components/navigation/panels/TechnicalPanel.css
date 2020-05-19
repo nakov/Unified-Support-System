@@ -1,7 +1,7 @@
 .help-center__nav__technical-panel {
     background: #eee;
-    border-radius: 5px;
     padding: 0.6rem;
+    flex-grow: 2;
 }
 
 .help-center__nav__technical-panel ul {
@@ -10,12 +10,10 @@
 
 .help-center__nav__technical-panel li {
     list-style-type: none;
-    border-radius: 3px;
     background: #ddd;
-    width: calc(100% - 10px);
-    padding: 0.2rem 0;
-    text-align: center;
-    margin: 0.6rem 0.4rem;
+    padding: 0.5rem;
+    text-align: right;
+    margin: 0.5rem 0;
 }
 
 .help-center__nav__technical-panel li:hover {
@@ -32,5 +30,5 @@
 
 .help-center__nav__technical-panel svg {
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
