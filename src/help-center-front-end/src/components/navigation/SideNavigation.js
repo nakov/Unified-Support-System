@@ -8,13 +8,13 @@ import {
     faUserFriends 
 } from '@fortawesome/free-solid-svg-icons';
 
-const panelNames = {
-    helpCenter: 'Help Center',
-    administrative: 'Administrative',
-    community: 'Community'
-}
-
 function SideNavigation() {
+    const panelNames = {
+        helpCenter: 'Help Center',
+        administrative: 'Administrative',
+        community: 'Community'
+    }
+    
     const { helpCenter, administrative, community } = panelNames;
 
     return (

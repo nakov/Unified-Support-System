@@ -1,0 +1,71 @@
+/* Search  */
+.question-area__main-content__search-form {
+    background-color: #ddd;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2% 4% 2% 1%;
+    justify-content: space-between;
+}
+
+.question-area__main-content__search-form--btn {
+    align-items: center;
+    border-radius: 5px;
+    padding: 2%;
+    border: none;
+    width: 10%;
+}
+
+.question-area__main-content__search-form--btn>svg {
+    padding-right: 5px;
+    font-size: 1.2rem;
+}
+
+.question-area__main-content__search-form input {
+    background-color: #777;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 70%;
+}
+
+.question-area__main-content__search-form input::placeholder {
+    color: white;
+}
+
+.question-area__main-content__search-form select {
+    width: 100%;
+}
+
+.question-area__main-content__search-form__select-wraper {
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.question-area__main-content__search-form label {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-area__main-content__search-form select {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 0;
+    background: transparent;
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    color: transparent;
+}
+
+.question-area__main-content__search-form select option {
+  color: #fff;
+  background-color: #777;
+  border-radius: 5px;
+}

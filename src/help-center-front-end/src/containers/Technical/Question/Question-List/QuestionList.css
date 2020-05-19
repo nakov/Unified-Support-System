@@ -1,0 +1,38 @@
+.question-area__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-area__bold {
+    font-weight: bold;
+}
+
+.question-area__main-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.question-area__main-content a:hover {
+    color: #fff;
+}
+
+/* New Question  */
+.question-area__main-content__new-question {
+    margin-top: 2%;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #ddd;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2%;
+    justify-content: center;
+}
+
+.question-area__main-content__new-question p {
+    margin: 0;
+    margin-left: 5%;
+}
+
+.question-area__main-content__new-question svg {
+    margin-left: 2%;
+}

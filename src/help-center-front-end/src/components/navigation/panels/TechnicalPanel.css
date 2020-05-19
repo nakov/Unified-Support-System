@@ -1,5 +1,5 @@
 .help-center__nav__technical-panel {
-    background: #eee;
+    background: #ddd;
     padding: 0.6rem;
     flex-grow: 2;
 }
@@ -10,7 +10,7 @@
 
 .help-center__nav__technical-panel li {
     list-style-type: none;
-    background: #ddd;
+    background: #eee;
     padding: 0.5rem;
     text-align: right;
     margin: 0.5rem 0;

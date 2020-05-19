@@ -19,7 +19,7 @@ function App() {
       <div className='help-center__container'>
         <SideNavigation />
         <Switch>
-          <Route path="/" exact component={HelpCenter} />
+          <Route path="/" exact component={My} />
           <Route path="/administrative" component={Administrative} />
           <Route path="/community" component={Community} />
           <Route path="/my" component={My} />
