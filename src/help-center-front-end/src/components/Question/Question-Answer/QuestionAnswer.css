@@ -43,12 +43,3 @@
 .question-area__side-content__answer-wrapper__name span {
     font-weight: normal;
 }
-
-.question-area__side-content__answer-wrapper textarea {
-    width: 96%;
-    height: 15vh;
-    margin: 2%;
-    border: 1px solid;
-    border-radius: 5px;
-    resize: none;
-}

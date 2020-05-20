@@ -1,6 +1,7 @@
 import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import { Switch, Route } from 'react-router';
+import '../node_modules/draft-js/dist/Draft.css';
 
 import Administrative from './containers/Administrative/Administrative';
 import Community from './containers/Community/Community';
