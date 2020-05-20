@@ -1,0 +1,25 @@
+.question-area__side-content__add-question-form {
+    border: 1px solid;
+    border-radius: 5px;
+    min-height: 100%;
+    padding: 2%;
+}
+
+.question-area__side-content__add-question-form input {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #eee;
+}
+
+.question-area__side-content__add-question-form textarea {
+    padding: 5px;
+    width: 100%;
+    height: 85vh;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #eee;
+    resize: none;
+}

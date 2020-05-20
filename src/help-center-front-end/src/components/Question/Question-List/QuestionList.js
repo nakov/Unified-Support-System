@@ -15,17 +15,16 @@ function QuestionList(props) {
         <section className="question-area__main-content">
             <QuestionSearch />
             {
-                questionsData.map((qData) => 
+                questionsData.map((qData) =>
                     <QuestionCard {...qData} key={qData.id} selectQuestionHandler={selectQuestionHandler} />
                 )
             }
 
-            <a onClick={(e) => changeComponentTypeHandler(e, 'questionType')} href="/">
-                <div className="question-area__main-content__new-question question-area__flex">
-                    <FontAwesomeIcon icon={faPlusCircle} />
-                    <p>New Question</p>
-                </div>
-            </a>
+            <div onClick={(e) => changeComponentTypeHandler(e, 'questionType')}
+                className="question-area__main-content__new-question question-area__flex">
+                <FontAwesomeIcon icon={faPlusCircle} />
+                <p>New Question</p>
+            </div>
         </section>
     )
 }

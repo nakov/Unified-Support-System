@@ -17,6 +17,7 @@
 }
 
 /* New Question  */
+
 .question-area__main-content__new-question {
     margin-top: 2%;
     border: 1px solid;
@@ -26,6 +27,12 @@
     text-align: center;
     padding: 2%;
     justify-content: center;
+    cursor: pointer;
+}
+
+.question-area__main-content__new-question:hover {
+    background-color: #777;
+    color: white;
 }
 
 .question-area__main-content__new-question p {

@@ -6,10 +6,12 @@
     border: 1px solid;
     border-radius: 5px;
     background-color: #ddd;
+    cursor: pointer;
 }
 
-.question-area__main-content__item-card--link {
-    cursor: pointer;
+.question-area__main-content__item-card:hover {
+    background-color: #777;
+    color: white;
 }
 
 .question-area__main-content__item-card__elipsis {

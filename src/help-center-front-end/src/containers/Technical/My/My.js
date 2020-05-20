@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import QuestionList from '../../../components/Question/Question-List/QuestionList'
 import QuestionAnswer from '../../../components/Question/Question-Answer/QuestionAnswer';
 import QuestionType from '../../../components/Question/Question-Type/QuestionType';
+import AddQuestionForm from '../../../components/Question/Add-Question-Form/AddQuestionForm';
 
 import '../Technical.css';
 
@@ -18,7 +19,8 @@ function MyContainer() {
 
     const dynamicComponents = {
         questionAnswer: QuestionAnswer,
-        questionType: QuestionType
+        questionType: QuestionType,
+        addQuestionForm: AddQuestionForm
     }
 
     function selectQuestionHandler(e, selectedId) {
@@ -40,12 +42,14 @@ function MyContainer() {
 
     return (
         <main className="question-area__container">
-            <QuestionList 
+            <QuestionList
                 questionsData={questionsData}
                 selectQuestionHandler={selectQuestionHandler}
                 changeComponentTypeHandler={changeComponentTypeHandler} />
             <section className="question-area__side-content">
-                <TypeComponent question={questionsData[id]} />
+                <TypeComponent
+                    question={questionsData[id]}
+                    changeComponentTypeHandler={changeComponentTypeHandler} />
             </section>
         </main>
     )

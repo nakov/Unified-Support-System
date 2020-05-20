@@ -18,7 +18,7 @@
 .question-area__side-content__question-type header {
     margin: 0.9rem 0;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -35,4 +35,9 @@
 .question-area__side-content__question-type header svg {
     font-size: 3rem;
     padding-right: 2rem;
+}
+
+.question-area__side-content__question-type-link {
+    text-decoration: none;
+    color: black;
 }
