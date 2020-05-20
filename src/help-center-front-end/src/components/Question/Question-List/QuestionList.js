@@ -14,6 +14,7 @@ function QuestionList(props) {
     return (
         <section className="question-area__main-content">
             <QuestionSearch />
+            
             {
                 questionsData.map((qData) =>
                     <QuestionCard {...qData} key={qData.id} selectQuestionHandler={selectQuestionHandler} />

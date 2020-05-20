@@ -5,10 +5,7 @@ import '../node_modules/draft-js/dist/Draft.css';
 
 import Administrative from './containers/Administrative/Administrative';
 import Community from './containers/Community/Community';
-import My from './containers/Technical/My/My';
-import Lesson from './containers/Technical/Lesson/Lesson';
-import Course from './containers/Technical/Course/Course';
-import Section from './containers/Technical/Section/Section';
+import TechnicalContainer from './containers/Technical/Technical';
 import SideNavigation from './components/Navigation/SideNavigation';
 
 import './App.css';
@@ -19,13 +16,13 @@ function App() {
       <div className='help-center__container'>
         <SideNavigation />
         <Switch>
-          <Route path="/" exact component={My} />
+          <Route path="/" exact component={TechnicalContainer} />
           <Route path="/administrative" component={Administrative} />
           <Route path="/community" component={Community} />
-          <Route path="/my" component={My} />
-          <Route path="/lesson" component={Lesson} />
-          <Route path="/course" component={Course} />
-          <Route path="/section" component={Section} />
+          <Route path="/my" component={TechnicalContainer} />
+          <Route path="/lesson" component={TechnicalContainer} />
+          <Route path="/course" component={TechnicalContainer} />
+          <Route path="/section" component={TechnicalContainer} />
         </Switch>
       </div>
     </MemoryRouter>

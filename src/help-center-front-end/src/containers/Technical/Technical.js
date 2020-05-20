@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-import QuestionList from '../../../components/Question/Question-List/QuestionList'
-import QuestionAnswer from '../../../components/Question/Question-Answer/QuestionAnswer';
-import QuestionType from '../../../components/Question/Question-Type/QuestionType';
-import AddQuestionForm from '../../../components/Question/Add-Question-Form/AddQuestionForm';
+import QuestionList from '../../components/Question/Question-List/QuestionList';
+import QuestionAnswer from '../../components/Question/Question-Answer/QuestionAnswer';
+import QuestionType from '../../components/Question/Question-Type/QuestionType';
+import AddQuestionForm from '../../components/Question/Add-Question-Form/AddQuestionForm';
 
-import '../Technical.css';
+import './Technical.css';
 
-function MyContainer() {
+function TechnicalContainer() {
     const [id, setId] = useState(0);
     const [componentType, setComponentType] = useState('questionAnswer');
 
@@ -55,4 +55,4 @@ function MyContainer() {
     )
 }
 
-export default MyContainer;
+export default TechnicalContainer;
