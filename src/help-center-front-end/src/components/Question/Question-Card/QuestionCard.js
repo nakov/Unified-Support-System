@@ -8,23 +8,23 @@ import {
 import './QuestionCard.css';
 
 function QuestionCard(props) {
-    const { id, title, description, firstName, lastName, answers, createdOn, dislikes, likes } = props;
+    const { id, title, profileImgUrl, description, firstName, lastName, answers, createdOn, dislikes, likes } = props;
 
     return (
-        <div className="question-area__main-content__item-card" onClick={(e) => props.selectQuestionHandler(e, id)}>
-            <header className="question-area__flex">
-                <img src="" alt="" />
-                <div>
-                    <div className="question-area__flex">
-                        <p className="question-area__main-content__item-card__elipsis question-area__bold">{firstName} {lastName}</p>
-                        <p className="question-area__main-content__item-card__counter">{answers} answers</p>
-                    </div>
-                    <div className="question-area__flex">
-                        <p className="question-area__main-content__item-card__elipsis question-area__main-content__item-card__date">{createdOn}</p>
-                        <button className="question-area__main-content__item-card__left-btn question-area__flex">
+        <article className="question-area__main-content__item-card" onClick={(e) => props.selectQuestionHandler(e, id)}>
+            <header className="question-area__main-content__item-card__header">
+                <img src={profileImgUrl} alt="" />
+                <div className="question-area__main-content__item-card__header-second-col">
+                    <p className="question-area__main-content__item-card__elipsis question-area__bold">{firstName} {lastName}</p>
+                    <p className="question-area__main-content__item-card__elipsis question-area__main-content__item-card__date">{createdOn}</p>
+                </div>
+                <div className="question-area__main-content__item-card__header-third-col">
+                    <p className="question-area__main-content__item-card__counter"><strong>{answers}</strong> answers</p>
+                    <div className="question-area__main-content__item-card__buttons">
+                        <button className="question-area__main-content__item-card__left-btn">
                             {dislikes} <FontAwesomeIcon icon={faThumbsDown} />
                         </button>
-                        <button className="question-area__main-content__item-card__right-btn question-area__flex">
+                        <button className="question-area__main-content__item-card__right-btn">
                             {likes}  <FontAwesomeIcon icon={faThumbsUp} />
                         </button>
                     </div>
@@ -34,7 +34,7 @@ function QuestionCard(props) {
                 <h2 className="question-area__main-content__item-card__elipsis">{title}</h2>
                 <p className="question-area__main-content__item-card__elipsis">{description}</p>
             </div>
-        </div>
+        </article>
     )
 }
 
