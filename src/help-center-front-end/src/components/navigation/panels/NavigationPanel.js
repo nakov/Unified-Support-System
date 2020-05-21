@@ -1,6 +1,6 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from './node_modules/react';
+import { NavLink } from './node_modules/react-router-dom';
+import { FontAwesomeIcon } from './node_modules/@fortawesome/react-fontawesome';
 
 import './NavigationPanel.css';
 import '../SideNavigation.css';
