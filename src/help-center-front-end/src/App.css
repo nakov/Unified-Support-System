@@ -1,6 +1,8 @@
 .help-center__container {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 2fr 3fr;
     grid-gap: 1rem;
-    min-height: 95vh;
+    min-height: 94vh;
+    border: 5px solid #ddd;
+    padding: 0.3rem;
 }

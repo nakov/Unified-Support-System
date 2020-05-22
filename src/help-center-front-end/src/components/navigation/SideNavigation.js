@@ -1,13 +1,13 @@
-import React from './node_modules/react';
+import React from 'react';
 
-import NavigationPanel from './Panels/NavigationPanel';
-import TechnicalNavPanel from './Panels/TechnicalPanel';
+import NavigationPanel from './panels/NavigationPanel';
+import TechnicalNavPanel from './panels/TechnicalPanel';
 
 import { 
     faHome, 
     faAddressCard, 
     faUserFriends 
-} from './node_modules/@fortawesome/free-solid-svg-icons';
+} from '@fortawesome/free-solid-svg-icons';
 
 function SideNavigation() {
     const panelNames = {

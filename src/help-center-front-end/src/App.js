@@ -6,7 +6,7 @@ import '../node_modules/draft-js/dist/Draft.css';
 import Administrative from './containers/Administrative/Administrative';
 import Community from './containers/Community/Community';
 import TechnicalContainer from './containers/Technical/Technical';
-import SideNavigation from './components/Navigation/SideNavigation';
+import SideNavigation from './components/navigation/SideNavigation';
 
 import './App.css';
 

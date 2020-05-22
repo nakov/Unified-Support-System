@@ -1,6 +1,4 @@
 .help-center__nav {
-    border: 5px solid #ddd;
-    padding: 0.3rem;
     display: flex;
     flex-direction: column;
 }
@@ -8,4 +6,13 @@
 .help-center__nav a {
     text-decoration: none;
     color: inherit;
+}
+
+.help-center__nav a+a {
+    margin-top: 0.3rem;
+}
+
+.help-center__nav h2 {
+    margin: 0.3rem 0;
+    padding: 0;
 }

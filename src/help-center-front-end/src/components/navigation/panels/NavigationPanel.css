@@ -1,16 +1,19 @@
 .help-center__nav__panel {
-    background: #ddd;
-    padding-top: 0.3rem;
-    margin-top: 0.5rem;
+    background-color: #ddd;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.6rem 0;
+    font-size: 1.5rem;
 }
 
 .help-center__nav__panel:hover {
     background-color: #777;
     color: #eee;
+    border-color: black;
 }
 
 .help-center__nav__panel h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0.4rem;
     margin: 0.4rem;
     text-align: center;

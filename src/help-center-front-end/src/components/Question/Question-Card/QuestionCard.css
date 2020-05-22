@@ -1,6 +1,6 @@
 /* Question Card */
 .question-area__main-content__item-card {
-    min-height: 18%;
+    min-height: 17%;
     padding: 2% 4%;
     margin-top: 2%;
     border: 1px solid;
@@ -24,7 +24,7 @@
 }
 
 .question-area__main-content__item-card__elipsis {
-    white-space: nowrap;
+    /* white-space: nowrap; */
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -49,8 +49,9 @@
 
 .question-area__main-content__item-card img {
     border: 1px solid;
-    height: 6.25rem;
-    width: 6.25rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    margin: 0.3rem;
 }
 
 .question-area__main-content__item-card__buttons button {
