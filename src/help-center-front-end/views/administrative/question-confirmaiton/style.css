@@ -1,0 +1,107 @@
+/* This part is already in use (default)., do not copy/use in your code!!! */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    max-height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-height: 100%;
+}
+
+#root {
+    width: 100%;
+    max-height: 100%;
+}
+
+/* help-center  */
+
+.help-center__container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-gap: 1rem;
+    min-height: 97vh;
+    border: 5px solid #ddd;
+    padding: 0.3rem;
+}
+
+/* nav  */
+
+.help-center__nav {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+.RichEditor-root {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    font-family: 'Georgia', serif;
+    font-size: 0.9rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+}
+
+/* This part is already in use (default), do not copy/use in your code!!! */
+
+/* this part is for administraitive question form */
+
+.administrative-question__main__confirmation {
+    border: 1px solid;
+    border-radius: 0.3rem;
+    min-height: 100%;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    align-items: center;
+    justify-content: center;
+}
+
+.administrative-question__main__confirmation h1 {
+    margin: 1.5rem auto;
+}
+
+.administrative-question__main__confirmation > i {
+    flex: 2 0 40%;
+    font-size: 20vh;
+}
+
+.administrative-question__main__confirmation a {
+    display: flex;
+    flex: 1 0 20%;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #777;
+}
+
+.administrative-question__main__confirmation a:hover {
+    background-color: #aaa;
+}
+
+.administrative-question__main__confirmation a i {
+    margin: 2rem;
+    font-size: 15vh;
+}
