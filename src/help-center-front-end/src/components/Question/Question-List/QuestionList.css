@@ -18,28 +18,10 @@
 
 /* New Question  */
 
-.question-area__main-content__new-question {
-    margin-top: 2%;
+.question-area__main-content__send-or-ask {
+    padding: 0.3rem;
+    margin-top: 0.3rem;
     border: 1px solid;
-    border-radius: 5px;
-    background-color: #ddd;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 2%;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.question-area__main-content__new-question:hover {
-    background-color: #777;
-    color: white;
-}
-
-.question-area__main-content__new-question p {
-    margin: 0;
-    margin-left: 5%;
-}
-
-.question-area__main-content__new-question svg {
-    margin-left: 2%;
+    border-radius: 0.3rem;
+    background-color: #eee;
 }

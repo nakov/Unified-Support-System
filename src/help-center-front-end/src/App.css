@@ -2,7 +2,19 @@
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
     grid-gap: 1rem;
-    min-height: 94vh;
-    border: 5px solid #ddd;
+    min-height: 97vh;
+    border: 0.5rem solid #ddd;
     padding: 0.3rem;
+}
+
+.send-or-ask {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.send-or-ask__p {
+    margin-left: 0.5rem;
 }

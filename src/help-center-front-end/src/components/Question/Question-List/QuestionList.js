@@ -22,9 +22,9 @@ function QuestionList(props) {
             }
 
             <div onClick={(e) => changeComponentTypeHandler(e, 'questionType')}
-                className="question-area__main-content__new-question question-area__flex">
+                className="question-area__main-content__send-or-ask send-or-ask">
                 <FontAwesomeIcon icon={faPlusCircle} />
-                <p>New Question</p>
+                <p className="send-or-ask__p">New Question</p>
             </div>
         </section>
     )

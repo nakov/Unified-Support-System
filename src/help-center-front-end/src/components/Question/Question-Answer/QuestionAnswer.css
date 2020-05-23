@@ -73,3 +73,7 @@
     font-size: 1.3rem;
     font-weight: bold;
 }
+
+.question-area__side-content__answer-wrapper__submit-btn:hover {
+    cursor: pointer;
+}
