@@ -59,49 +59,64 @@ body {
 
 /* This part is already in use (default), do not copy/use in your code!!! */
 
-/* this part is for administraitive question confirmation */
+/* this part is for administraitive question answer */
 
-.administrative-question__main__confirmation {
+.administrative-question__main__answer-wrapper {
     border: 1px solid;
     border-radius: 0.3rem;
     min-height: 100%;
-    padding: 0.6rem;
     display: flex;
     flex-direction: column;
     background-color: #ddd;
-    align-items: center;
-    justify-content: center;
 }
 
-.administrative-question__main__confirmation h1 {
-    margin: 1.5rem auto;
+.administrative-question__main__answer-wrapper h1 {
+    border-bottom: 1px solid;
+    padding: 1rem;
 }
 
-.administrative-question__main__confirmation > i {
-    flex: 2 0 40%;
-    font-size: 20vh;
-}
-
-.administrative-question__main__confirmation a {
+.qdministrative-question__main__question-content{
     display: flex;
-    flex: 1 0 20%;
-    margin-top: 2rem;
-    text-decoration: none;
-    color: black;
+    padding: 0.8rem;
+    background-color: #7f7f7f;
+    align-items: flex-start;
+}
+
+.administrative-question__main__content-wrapper{
+    background-color: #767171;
+    flex-grow: 1;
+    max-height: 78vh;
+    overflow: auto;
+}
+
+.qdministrative-question__main__question-content p:nth-child(1){
     border: 1px solid;
     border-radius: 0.3rem;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    background-color: #777;
+    padding: 1rem;
+    margin: 0.3rem;
+    background-color: #bf9000;
 }
 
-.administrative-question__main__confirmation a:hover {
-    background-color: #aaa;
+.qdministrative-question__main__question-content p:nth-child(2){
+    padding: 0.5rem;
 }
 
-.administrative-question__main__confirmation a i {
-    margin: 2rem;
-    font-size: 15vh;
+.qdministrative-question__main__answer-content{
+    display: flex;
+    padding: 0.8rem;
+    background-color: #767171;
+    align-items: flex-start;
+}
+
+.qdministrative-question__main__answer-content p.border{
+    border: 1px solid;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin: 0.3rem;
+    background-color: #70ad47;
+    flex-shrink: 1;
+}
+
+.qdministrative-question__main__answer-content p{
+    padding: 0.5rem;
 }
