@@ -43,20 +43,6 @@ body {
     border: 1px solid;
 }
 
-.RichEditor-root {
-    background-color: #fff;
-    border: 1px solid black;
-    border-radius: 0.3rem;
-    font-family: 'Georgia', serif;
-    font-size: 0.9rem;
-    padding: 1rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    width: 100%;
-}
-
 /* This part is already in use (default), do not copy/use in your code!!! */
 
 /* this part is for administraitive question form */
@@ -72,13 +58,17 @@ body {
     height: 100%;
 }
 
-.administrative-question__main__form .RichEditor-root {
-    padding: 0.3rem;
-    width: 100%;
-    border: 1px solid;
+.administrative-question__main__form__textarea{
+    border: 1px solid black;
     border-radius: 0.3rem;
+    font-family: 'Georgia', serif;
+    font-size: 0.9rem;
+    text-align: left;
+    flex-grow: 1;
+    width: 100%;
+    padding: 0.3rem;
     background-color: #eee;
-    flex: 1 0 15%;
+    font-size: 1.2rem;
 }
 
 .administrative-question__main__form a {
