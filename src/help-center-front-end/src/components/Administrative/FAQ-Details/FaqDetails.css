@@ -38,6 +38,10 @@
     padding: 0.5rem;
 }
 
+.administrative-question__main__question-content__question {
+    color: white;
+}
+
 .administrative-question__main__answer-content{
     display: flex;
     padding: 0.8rem;
@@ -56,4 +60,8 @@
 
 .administrative-question__main__answer-content p{
     padding: 0.5rem;
+}
+
+.administrative-question__main__answer-content__answer {
+    color: white;
 }
