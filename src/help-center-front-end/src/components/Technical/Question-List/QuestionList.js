@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faPlusCircle
 } from '@fortawesome/free-solid-svg-icons';
-import QuestionSearch from '../Question-Search/QuestionSearch';
+import QuestionSearch from '../../Question-Search/QuestionSearch';
 import QuestionCard from '../Question-Card/QuestionCard';
 
 import './QuestionList.css';
@@ -13,7 +13,7 @@ function QuestionList(props) {
 
     return (
         <section className="question-area__main-content">
-            <QuestionSearch />
+            <QuestionSearch placeholder={'Search Questions...'} />
             
             {
                 questionsData.map((qData) =>

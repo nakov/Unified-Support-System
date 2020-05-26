@@ -4,15 +4,15 @@ import './FaqDetails.css';
 
 function FaqDetails() {
     return (
-        <div class="administrative-question__main__answer-wrapper">
+        <div className="administrative-question__main__answer-wrapper">
             <h1>Holidays: Dec 2019 - Jan 2020</h1>
-            <div class="administrative-question__main__content-wrapper">
-                <div class="administrative-question__main__question-content">
+            <div className="administrative-question__main__content-wrapper">
+                <div className="administrative-question__main__question-content">
                     <p>Q</p>
                     <p>Shall SoftUni provide technical support during the holidays (Dec2019 -Jan2020)?</p>
                 </div>
-                <div class="administrative-question__main__answer-content">
-                    <p class="border">A</p>
+                <div className="administrative-question__main__answer-content">
+                    <p className="border">A</p>
                     <div>
                         <p>During the New Year's holiday our technical support team will work with limited
                         resources. so you can expect answers to technical questions within 48 hours.</p>

@@ -1,5 +1,5 @@
 /* Search  */
-.question-area__main-content__search-form {
+.help-center-question__search-form {
     background-color: #ddd;
     border: 1px solid;
     border-radius: 5px;
@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 
-.question-area__main-content__search-form--btn {
+.help-center-question__search-form--btn {
     align-items: center;
     border-radius: 5px;
     padding: 2%;
@@ -15,12 +15,12 @@
     width: 10%;
 }
 
-.question-area__main-content__search-form--btn>svg {
+.help-center-question__search-form--btn>svg {
     padding-right: 5px;
     font-size: 1.2rem;
 }
 
-.question-area__main-content__search-form input {
+.help-center-question__search-form input {
     background-color: #777;
     border: none;
     padding: 5px;
@@ -29,22 +29,22 @@
     width: 70%;
 }
 
-.question-area__main-content__search-form input::placeholder {
+.help-center-question__search-form input::placeholder {
     color: white;
 }
 
-.question-area__main-content__search-form select {
+.help-center-question__search-form select {
     width: 100%;
 }
 
-.question-area__main-content__search-form__select-wraper {
+.help-center-question__search-form__select-wraper {
     background-color: #f0f0f0;
     border-radius: 5px;
     display: inline-block;
     position: relative;
 }
 
-.question-area__main-content__search-form label {
+.help-center-question__search-form label {
     width: 30px;
     height: 30px;
     display: inline-flex;
@@ -52,7 +52,7 @@
     justify-content: center;
 }
 
-.question-area__main-content__search-form select {
+.help-center-question__search-form select {
     position: absolute;
     left: 0;
     top: 0;
@@ -64,7 +64,7 @@
     color: transparent;
 }
 
-.question-area__main-content__search-form select option {
+.help-center-question__search-form select option {
   color: #fff;
   background-color: #777;
   border-radius: 5px;
