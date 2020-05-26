@@ -13,6 +13,7 @@
     padding: 2%;
     border: none;
     width: 10%;
+    cursor: pointer;
 }
 
 .help-center-question__search-form--btn>svg {
@@ -62,6 +63,7 @@
     width: 30px;
     height: 30px;
     color: transparent;
+    cursor: pointer;
 }
 
 .help-center-question__search-form select option {

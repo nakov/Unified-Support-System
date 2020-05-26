@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 
 import FaqCard from './FAQ-Card/FaqCard';
 import QuestionSearch from '../../Question-Search/QuestionSearch';
@@ -21,7 +23,8 @@ function FaqList(props) {
             </div>
 
             <div className="question-area__main-content__send-or-ask send-or-ask">
-                <i className="fas fa-plus-circle"></i>
+                <FontAwesomeIcon icon={faPlusCircle}></FontAwesomeIcon>
+                
                 <p className="send-or-ask__p">New Question</p>
             </div>
         </Fragment>

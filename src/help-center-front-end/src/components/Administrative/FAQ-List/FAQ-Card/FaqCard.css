@@ -5,6 +5,12 @@
     overflow: auto;
 }
 
+.administrative-question-list__cards-list__question-card:hover {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+}
+
 .administrative-question-list__cards-list article+article {
     margin: 0.3rem 0;
 }
