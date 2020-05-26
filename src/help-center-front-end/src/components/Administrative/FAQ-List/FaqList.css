@@ -1,0 +1,41 @@
+.administrative-question-list {
+    border: 1px solid;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+}
+
+.question-area__main-content__send-or-ask {
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    background-color: #eee;
+}
+
+.administrative-question-list__cards-list {
+    margin: 0.3rem 0;
+    flex-grow: 1;
+    max-height: 79vh;
+    overflow: auto;
+}
+
+.administrative-question-list__cards-list article+article {
+    margin: 0.3rem 0;
+}
+
+.administrative-question-list__cards-list__question-card {
+    border: 1px solid;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    max-height: 18vh;
+    overflow: hidden;
+}
+
+.administrative-question-list__cards-list__question-card--date {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+}
