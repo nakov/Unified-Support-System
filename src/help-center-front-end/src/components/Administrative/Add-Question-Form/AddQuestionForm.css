@@ -23,7 +23,7 @@
     resize: none;
 }
 
-.administrative-question__main__form a {
+.administrative-question__main__form button {
     padding: 0.3rem;
     margin-top: 0.3rem;
     text-decoration: none;

@@ -2,14 +2,16 @@ import React from 'react';
 
 import './FaqDetails.css';
 
-function FaqDetails() {
+function FaqDetails(props) {
+    const { selectedQuestion } = props;
+
     return (
         <div className="administrative-question__main__answer-wrapper">
-            <h1>Holidays: Dec 2019 - Jan 2020</h1>
+            <h1>{selectedQuestion.title}</h1>
             <div className="administrative-question__main__content-wrapper">
                 <div className="administrative-question__main__question-content">
                     <p>Q</p>
-                    <p>Shall SoftUni provide technical support during the holidays (Dec2019 -Jan2020)?</p>
+                    <p>{selectedQuestion.content}</p>
                 </div>
                 <div className="administrative-question__main__answer-content">
                     <p className="border">A</p>

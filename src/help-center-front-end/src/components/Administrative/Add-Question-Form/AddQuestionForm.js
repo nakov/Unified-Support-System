@@ -8,9 +8,11 @@ import {
 
 import './AddQuestionForm.css';
 
-function AddQuestionForm() {
+function AddQuestionForm(props) {
+    const { changeComponentTypeHandler } = props;
+
     return (
-        <form action="" method="post" className="administrative-question__main__form">
+        <form onSubmit={(e) => changeComponentTypeHandler(e, 'successfulSubmit')} className="administrative-question__main__form">
             <div className="administrative-question__main__form__input-field-with-icon">
                 <FontAwesomeIcon icon={faComments}></FontAwesomeIcon>
                 <input type="text" name="title" placeholder="Subject" />
@@ -21,12 +23,13 @@ function AddQuestionForm() {
             </div>
             <textarea name="content" className="administrative-question__main__form__textarea"
                 placeholder="Describe your problem/inquiry here..."></textarea>
-            <a href="">
+
+            <button type="submit">
                 <div className="send-or-ask">
                     <FontAwesomeIcon icon={faPlusCircle}></FontAwesomeIcon>
                     <p className="send-or-ask__p">Send Question</p>
                 </div>
-            </a>
+            </button>
         </form>
     )
 }

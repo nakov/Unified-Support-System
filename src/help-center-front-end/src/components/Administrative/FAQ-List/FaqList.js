@@ -8,8 +8,16 @@ import QuestionSearch from '../../Question-Search/QuestionSearch';
 import './FaqList.css';
 
 function FaqList(props) {
-    const { faq } = props;
+    const { faq, changeComponentTypeHandler, componentType } = props;
 
+    const NewQuestionBtn = componentType === 'faqDetails'
+        ? ( 
+            <div onClick={(e) => changeComponentTypeHandler(e, 'addQuestionForm')} className="question-area__main-content__send-or-ask send-or-ask">
+            <FontAwesomeIcon icon={faPlusCircle}></FontAwesomeIcon>
+            <p className="send-or-ask__p">New Question</p>
+            </div>
+        ) : null;
+    
     return (
         <Fragment>
             <QuestionSearch placeholder={'Search FAQ...'}>
@@ -18,15 +26,15 @@ function FaqList(props) {
 
             <div className="administrative-question-list__cards-list">
                 {
-                    faq.map(q => <FaqCard {...q} key={q.id}></FaqCard>)
+                    faq.map(q => <FaqCard {...q}
+                        key={q.id}
+                        changeComponentTypeHandler={changeComponentTypeHandler}>
+                    </FaqCard>
+                    )
                 }
             </div>
 
-            <div className="question-area__main-content__send-or-ask send-or-ask">
-                <FontAwesomeIcon icon={faPlusCircle}></FontAwesomeIcon>
-                
-                <p className="send-or-ask__p">New Question</p>
-            </div>
+            {NewQuestionBtn}
         </Fragment>
     )
 }
