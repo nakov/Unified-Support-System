@@ -1,9 +1,9 @@
 import React, { useState, Fragment } from 'react';
 
-import QuestionList from '../../components/Question/Question-List/QuestionList';
-import QuestionAnswer from '../../components/Question/Question-Answer/QuestionAnswer';
-import QuestionType from '../../components/Question/Question-Type/QuestionType';
-import AddQuestionForm from '../../components/Question/Add-Question-Form/AddQuestionForm';
+import QuestionList from '../../components/Technical/Question-List/QuestionList';
+import QuestionAnswer from '../../components/Technical/Question-Answer/QuestionAnswer';
+import QuestionType from '../../components/Technical/Question-Type/QuestionType';
+import AddQuestionForm from '../../components/Technical/Add-Question-Form/AddQuestionForm';
 
 import './Technical.css';
 
@@ -41,7 +41,6 @@ function TechnicalContainer() {
     const TypeComponent = dynamicComponents[componentType];
 
     return (
-        // <main className="question-area__container">
         <Fragment>
             <QuestionList
                 questionsData={questionsData}
@@ -53,7 +52,6 @@ function TechnicalContainer() {
                     changeComponentTypeHandler={changeComponentTypeHandler} />
             </section>
         </Fragment>
-        // </main>
     )
 }
 

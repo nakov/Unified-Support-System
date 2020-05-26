@@ -1,12 +1,5 @@
-/* .question-area__container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 1rem;
-} */
-
 .question-area__side-content {
     border: 1px solid;
     border-radius: 5px;
     background-color: #eee;
-    /* min-height: 95vh; */
 }
