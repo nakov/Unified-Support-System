@@ -91,14 +91,6 @@ body {
     background-color: #ddd;
 }
 
-.question-area__main-content__send-or-ask {
-    padding: 0.3rem;
-    margin-top: 0.3rem;
-    border: 1px solid;
-    border-radius: 0.3rem;
-    background-color: #eee;
-}
-
 .administrative-question-list__cards-list {
     margin: 0.3rem 0;
     flex-grow: 1;

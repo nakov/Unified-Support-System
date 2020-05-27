@@ -14,9 +14,9 @@
     justify-content: space-between;
 }
 
-.question-area__main-content__item-card__header-second-col p {
+/* .question-area__main-content__item-card__header-second-col p {
     font-size: 1.2rem;
-}
+} */
 
 .question-area__main-content__item-card:hover {
     background-color: #777;
@@ -49,8 +49,8 @@
 
 .question-area__main-content__item-card img {
     border: 1px solid;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 5.5vw;
+    width: 5.5vw;
     margin: 0.3rem;
 }
 

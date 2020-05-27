@@ -7,11 +7,3 @@
     flex-direction: column;
     background-color: #ddd;
 }
-
-.question-area__main-content__send-or-ask {
-    padding: 0.3rem;
-    margin-top: 0.3rem;
-    border: 1px solid;
-    border-radius: 0.3rem;
-    background-color: #eee;
-}

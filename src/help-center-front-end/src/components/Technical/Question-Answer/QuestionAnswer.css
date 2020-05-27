@@ -33,8 +33,8 @@
 
 .question-area__side-content__user-details img {
     margin-right: 0.5rem;
-    height: 50px;
-    width: 50px;
+    height: 5vw;
+    width: 5vw;
     border: 1px solid;
 }
 
@@ -68,7 +68,7 @@
     padding: 0.5rem 1rem;
     border: 1px solid;
     border-radius: 0.3rem;
-    width: 50%;
+    width: 100%;
     background-color: #888;
     font-size: 1.3rem;
     font-weight: bold;

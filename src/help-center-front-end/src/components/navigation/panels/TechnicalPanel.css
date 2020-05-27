@@ -8,9 +8,14 @@
     font-size: 1.5rem;
 }
 
-.help-center__nav__technical-panel ul {
+.help-center__nav__a .display-block {
+    display: block;
+}
+
+.help-center__nav__technical-panel ul{
     padding: 0.6rem;
     margin: 0;
+    display: none;
 }
 
 .help-center__nav__technical-panel li {
@@ -31,7 +36,6 @@
 
 .help-center__nav__technical-panel h2 {
     font-size: 1em;
-    padding: 0.4rem;
     margin: 0.3rem 0;
     text-align: center;
 }
