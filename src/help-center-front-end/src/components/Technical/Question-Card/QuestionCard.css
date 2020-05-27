@@ -9,6 +9,16 @@
     cursor: pointer;
 }
 
+.question-area__main-content__item-card:target {
+    background-color: #777;
+    color: white;
+}
+
+.question-area__main-content__item-card:hover {
+    background-color: #777;
+    color: white;
+}
+
 .question-area__main-content__item-card__header {
     display: flex;
     justify-content: space-between;
@@ -18,10 +28,6 @@
     font-size: 1.2rem;
 } */
 
-.question-area__main-content__item-card:hover {
-    background-color: #777;
-    color: white;
-}
 
 .question-area__main-content__item-card__elipsis {
     /* white-space: nowrap; */

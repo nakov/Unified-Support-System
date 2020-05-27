@@ -69,11 +69,12 @@
     border: 1px solid;
     border-radius: 0.3rem;
     width: 100%;
-    background-color: #888;
+    background-color: #eee;
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .question-area__side-content__answer-wrapper__submit-btn:hover {
+    background-color: #777;
     cursor: pointer;
 }
