@@ -1,6 +1,7 @@
 .help-center__nav {
     display: flex;
     flex-direction: column;
+    background-color: #ddd;
 }
 
 .help-center__nav a {

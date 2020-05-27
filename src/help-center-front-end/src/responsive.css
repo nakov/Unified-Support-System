@@ -1,20 +1,31 @@
 @media only screen and (max-width: 600px) {
-    /* html {
+    html {
         font-size: 12px;
-    } */
-
+    }
+    
     body .help-center__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    body .question-area__side-content {
+        grid-column-start: 1;
+        grid-column-end: span col4-start;
+        grid-row-start: 2;
+        grid-row-end: span 2;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
-    /* html {
-        font-size: 14px;
-    } */
-    
+
     body .help-center__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    body .question-area__side-content {
+        grid-column-start: 1;
+        grid-column-end: span col4-start;
+        grid-row-start: 2;
+        grid-row-end: span 2;
     }
 }
 

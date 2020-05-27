@@ -14,13 +14,13 @@ function QuestionList(props) {
     return (
         <section className="question-area__main-content">
             <QuestionSearch placeholder={'Search Questions...'} />
-            
-            {
-                questionsData.map((qData) =>
+            <div className="question-area__main-content__articles-list">
+                {
+                    questionsData.map((qData) =>
                     <QuestionCard {...qData} key={qData.id} selectQuestionHandler={selectQuestionHandler} />
-                )
-            }
-
+                    )
+                }
+            </div>
             <div onClick={(e) => changeComponentTypeHandler(e, 'questionType')}
                 className="question-area__main-content__send-or-ask send-or-ask">
                 <FontAwesomeIcon icon={faPlusCircle} />

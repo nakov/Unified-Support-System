@@ -35,6 +35,10 @@
     color: black;
 }
 
+.administrative-question__main__form button:hover {
+    background-color: #777;
+}
+
 .send-or-ask {
     display: flex;
     font-size: 1.5rem;

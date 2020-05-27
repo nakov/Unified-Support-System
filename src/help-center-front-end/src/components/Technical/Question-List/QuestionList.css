@@ -7,6 +7,12 @@
     font-weight: bold;
 }
 
+.question-area__main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+}
+
 .question-area__main-content a {
     text-decoration: none;
     color: black;
@@ -28,4 +34,8 @@
 
 .question-area__main-content__send-or-ask:hover {
     background-color: #777;
+}
+
+.question-area__main-content__articles-list {
+    flex-grow: 1;
 }
