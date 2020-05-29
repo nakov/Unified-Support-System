@@ -5,6 +5,7 @@
     min-height: 97vh;
     border: 0.5rem solid #ddd;
     padding: 0.3rem;
+    background-color: #ddd
 }
 
 .send-or-ask {

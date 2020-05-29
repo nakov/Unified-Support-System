@@ -21,11 +21,11 @@ function QuestionCard(props) {
                 <div className="question-area__main-content__item-card__header-third-col">
                     <p className="question-area__main-content__item-card__counter"><strong>{answers}</strong> answers</p>
                     <div className="question-area__main-content__item-card__buttons">
-                        <button className="question-area__main-content__item-card__left-btn">
-                            {dislikes} <FontAwesomeIcon icon={faThumbsDown} />
-                        </button>
                         <button className="question-area__main-content__item-card__right-btn">
                             {likes}  <FontAwesomeIcon icon={faThumbsUp} />
+                        </button>
+                        <button className="question-area__main-content__item-card__left-btn">
+                            {dislikes} <FontAwesomeIcon icon={faThumbsDown} />
                         </button>
                     </div>
                 </div>
