@@ -23,10 +23,6 @@
     padding: 1rem;
 }
 
-/* .RichEditor-editor .public-DraftEditor-content {
-    min-height: 4rem;
-} */
-
 .RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
     display: none;
 }
@@ -36,7 +32,7 @@
 }
 
 .RichEditor-editor .RichEditor-blockquote {
-    border-left: 5px solid #eee;
+    border-left: 0.3rem solid #eee;
     color: #777;
     font-family: 'Hoefler Text', 'Georgia', serif;
     font-style: italic;

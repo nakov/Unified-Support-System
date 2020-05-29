@@ -2,30 +2,30 @@
 .help-center-question__search-form {
     background-color: #ddd;
     border: 1px solid;
-    border-radius: 5px;
-    padding: 2% 4% 2% 1%;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
     justify-content: space-between;
 }
 
 .help-center-question__search-form--btn {
     align-items: center;
-    border-radius: 5px;
-    padding: 2%;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
     border: none;
     width: 10%;
     cursor: pointer;
 }
 
 .help-center-question__search-form--btn>svg {
-    padding-right: 5px;
+    padding-right: 0.3rem;
     font-size: 1.2rem;
 }
 
 .help-center-question__search-form input {
     background-color: #777;
     border: none;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
     color: white;
     width: 70%;
 }
@@ -40,14 +40,14 @@
 
 .help-center-question__search-form__select-wraper {
     background-color: #f0f0f0;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     display: inline-block;
     position: relative;
 }
 
 .help-center-question__search-form label {
-    width: 30px;
-    height: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -60,8 +60,8 @@
     border: 0;
     background: transparent;
     -webkit-appearance: none;
-    width: 30px;
-    height: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
     color: transparent;
     cursor: pointer;
 }
@@ -69,5 +69,5 @@
 .help-center-question__search-form select option {
   color: #fff;
   background-color: #777;
-  border-radius: 5px;
+  border-radius: 0.3rem;
 }

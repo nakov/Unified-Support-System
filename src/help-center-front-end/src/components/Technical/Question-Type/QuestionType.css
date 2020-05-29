@@ -2,7 +2,7 @@
 
 .question-area__side-content__question-type {
     border: 1px solid;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     background-color: #ddd;
     padding: 0.6rem;
     margin: 0.3rem;
