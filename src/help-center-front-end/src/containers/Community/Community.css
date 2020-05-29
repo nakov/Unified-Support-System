@@ -1,0 +1,10 @@
+.help-center__community-wrapper {
+    border-radius: 0.3rem;
+    background-color: #eee;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 0.5rem 1rem;
+}
