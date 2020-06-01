@@ -1,6 +1,7 @@
 .help-center__nav__technical-panel {
     background-color: #ddd;
     padding: 0.6rem 0;
+    margin: 0.3rem 0;
     flex-grow: 1;
     border: 1px solid black;
     border-radius: 0.3rem;
@@ -9,7 +10,7 @@
 
 .help-center__nav__technical-panel:hover {
     background-color: #777;
-    color: white;
+    cursor: pointer;
 }
 
 .help-center__nav__a .display-block {
@@ -19,7 +20,6 @@
 .help-center__nav__technical-panel ul{
     padding: 0.6rem;
     margin: 0;
-    display: none;
 }
 
 .help-center__nav__technical-panel li {

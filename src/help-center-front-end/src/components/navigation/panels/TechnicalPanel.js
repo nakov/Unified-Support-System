@@ -16,26 +16,24 @@ function TechnicalNavPanel() {
     ]
 
     return (
-        <NavLink to={'/my'} exact activeClassName='help-center__nav__a'>
-            <div className='help-center__nav__technical-panel'>
-                <FontAwesomeIcon icon={faCogs} size="lg" />
-                <h2>Technical</h2>
-                <ul className="display-block">
-                    {
-                        linksData.map((ld, i) =>
-                            <NavLink activeStyle={{
-                                color: 'blue',
-                            }} key={i} to={ld.navUrl}>
-                                <li className="display-block">
-                                    <FontAwesomeIcon icon={ld.icon} size="lg" pull="left" />
-                                    {ld.text}
-                                </li>
-                            </NavLink>
-                        )
-                    }
-                </ul>
-            </div>
-        </NavLink >
+        <div className='help-center__nav__technical-panel'>
+            <FontAwesomeIcon icon={faCogs} size="lg" />
+            <h2>Technical</h2>
+            <ul>
+                {
+                    linksData.map((ld, i) =>
+                        <NavLink activeStyle={{
+                            color: 'blue',
+                        }} key={i} to={ld.navUrl}>
+                            <li>
+                                <FontAwesomeIcon icon={ld.icon} size="lg" pull="left" />
+                                {ld.text}
+                            </li>
+                        </NavLink>
+                    )
+                }
+            </ul>
+        </div>
     )
 }
 
