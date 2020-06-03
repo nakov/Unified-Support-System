@@ -1,4 +1,10 @@
 /* Question Card */
+
+.question-area__main-content__item-card.is-active {
+    background-color: #777;
+    color: white;
+}
+
 .question-area__main-content__item-card {
     min-height: 17%;
     padding: 0.3rem 0.6rem;
@@ -36,7 +42,7 @@
 }
 
 .question-area__main-content__item-card__date {
-    margin-top:  0.3rem;
+    margin-top: 0.3rem;
     font-size: 0.7rem;
     font-style: italic;
     flex-shrink: 1;
@@ -48,7 +54,7 @@
 }
 
 .question-area__main-content__item-card h2 {
-    padding:  0.3rem 0;
+    padding: 0.3rem 0;
     margin: 0;
     font-size: 1em;
 }
@@ -66,7 +72,7 @@
 }
 
 .question-area__main-content__item-card__buttons button {
-    border-radius:  0.6rem;
+    border-radius: 0.6rem;
     border-color: white;
     margin-top: 0.5rem;
     padding: 0.2rem 0.3rem;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faPlusCircle
@@ -10,6 +10,11 @@ import './QuestionList.css';
 
 function QuestionList(props) {
     const { questionsData, selectQuestionHandler, changeComponentTypeHandler } = props;
+    const [activeArticleId, setArticle] = useState(0);
+
+    function setActiveArticle(id) {
+        setArticle(id);
+    }
 
     return (
         <section className="question-area__main-content">
@@ -17,7 +22,10 @@ function QuestionList(props) {
             <div className="question-area__main-content__articles-list">
                 {
                     questionsData.map((qData) =>
-                    <QuestionCard {...qData} key={qData.id} selectQuestionHandler={selectQuestionHandler} />
+                        <QuestionCard
+                            activeArticleId={activeArticleId}
+                            setActiveArticle={setActiveArticle}
+                            {...qData} key={qData.id} selectQuestionHandler={selectQuestionHandler} />
                     )
                 }
             </div>

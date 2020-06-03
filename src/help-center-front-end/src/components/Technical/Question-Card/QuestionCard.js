@@ -9,9 +9,14 @@ import './QuestionCard.css';
 
 function QuestionCard(props) {
     const { id, title, profileImgUrl, description, firstName, lastName, answers, createdOn, dislikes, likes } = props;
+    const isActive = props.activeArticleId === id ? 'is-active' : '';
 
     return (
-        <article className="question-area__main-content__item-card" onClick={(e) => props.selectQuestionHandler(e, id)}>
+        <article className={`question-area__main-content__item-card ${isActive}`}
+            onClick={(e) => {
+                props.selectQuestionHandler(e, id);
+                props.setActiveArticle(id);
+            }}>
             <header className="question-area__main-content__item-card__header">
                 <img src={profileImgUrl} alt="" />
                 <div className="question-area__main-content__item-card__header-second-col">

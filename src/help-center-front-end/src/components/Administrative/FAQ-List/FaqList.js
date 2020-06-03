@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,6 +9,11 @@ import './FaqList.css';
 
 function FaqList(props) {
     const { faq, changeComponentTypeHandler, componentType } = props;
+    const [activeQuestionId, setQuestion] = useState(0);
+
+    function setActiveQuestion(id) {
+        setQuestion(id);
+    }
 
     const NewQuestionBtn = componentType === 'faqDetails'
         ? ( 
@@ -26,9 +31,12 @@ function FaqList(props) {
 
             <div className="administrative-question-list__cards-list">
                 {
-                    faq.map(q => <FaqCard {...q}
+                    faq.map(q => <FaqCard 
+                        {...q}
                         key={q.id}
-                        changeComponentTypeHandler={changeComponentTypeHandler}>
+                        changeComponentTypeHandler={changeComponentTypeHandler}
+                        activeQuestionId={activeQuestionId}
+                        setActiveQuestion={setActiveQuestion}>
                     </FaqCard>
                     )
                 }
