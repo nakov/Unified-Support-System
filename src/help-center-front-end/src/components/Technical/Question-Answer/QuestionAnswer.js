@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './QuestionAnswer.css';
-import RichEditor from '../../Rich-Editor/RichEditor';
+import ReactQuill from 'react-quill';
 
 function QuestionAnswer(props) {
     const { title, profileImgUrl, description, firstName, lastName, createdOn } = props.question;
+    const [value, setValue] = useState('');
 
     return (
         <div className="question-area__side-content__answer-wrapper">
@@ -18,8 +19,8 @@ function QuestionAnswer(props) {
                 </div>
             </div>
             <form>
-              <RichEditor />
-              <input className="question-area__side-content__answer-wrapper__submit-btn" type="submit"/>
+                <ReactQuill theme="snow" value={value} onChange={setValue} />
+                <input className="question-area__side-content__answer-wrapper__submit-btn" type="submit" />
             </form>
         </div>
     )

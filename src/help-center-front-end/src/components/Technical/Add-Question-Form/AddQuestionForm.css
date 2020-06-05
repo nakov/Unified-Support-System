@@ -27,14 +27,3 @@
 .question-area__side-content__add-question-form__submit-btn:hover {
     cursor: pointer;
 }
-
-.question-area__side-content__add-question-form .RichEditor-root {
-    padding: 0.5rem;
-    margin: 0;
-    width: 100%;
-    height: 71vh;
-    border: 1px solid;
-    border-radius: 0.3rem;
-    background-color: #eee;
-    resize: none;
-}
