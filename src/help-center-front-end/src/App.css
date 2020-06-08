@@ -19,3 +19,9 @@
 .send-or-ask__p {
     margin-left: 0.5rem;
 }
+
+.quill {
+    width: 100%;
+    margin-bottom: 3rem;
+    flex-grow: 1;
+}
