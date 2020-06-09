@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import NavigationPanel from './panels/NavigationPanel';
 import TechnicalNavPanel from './panels/TechnicalPanel';
 
-import { 
-    faHome, 
-    faAddressCard, 
-    faUserFriends 
+import {
+    faHome,
+    faAddressCard,
+    faUserFriends
 } from '@fortawesome/free-solid-svg-icons';
 
 function SideNavigation() {
@@ -15,26 +15,37 @@ function SideNavigation() {
         administrative: 'Administrative',
         community: 'Community'
     }
-    
+
     const { helpCenter, administrative, community } = panelNames;
+    const [activePanel, setActivePanel] = useState('Help Center');
+
+    const onPanelClick = (name) => {
+        setActivePanel(name);
+    };
+    const unActivePanel = activePanel === 'Help Center' || activePanel === 'Technical' ? '' : 'hide-details';
 
     return (
         <nav className="help-center__nav">
-            <NavigationPanel 
+            <NavigationPanel
                 panelName={helpCenter}
                 icon={faHome}
-                navLink={'/'}>
+                navLink={'/'}
+                onPanelClick={onPanelClick}>
             </NavigationPanel>
-            <TechnicalNavPanel />
+            <TechnicalNavPanel
+                unActivePanel={unActivePanel}
+                onPanelClick={onPanelClick} />
             <NavigationPanel
-                panelName={administrative} 
+                panelName={administrative}
                 icon={faAddressCard}
-                navLink={'/administrative'}>
+                navLink={'/administrative'}
+                onPanelClick={onPanelClick}>
             </NavigationPanel>
-            <NavigationPanel 
-                panelName={community} 
+            <NavigationPanel
+                panelName={community}
                 icon={faUserFriends}
-                navLink={'/community'}>
+                navLink={'/community'}
+                onPanelClick={onPanelClick}>
             </NavigationPanel>
         </nav>
     )

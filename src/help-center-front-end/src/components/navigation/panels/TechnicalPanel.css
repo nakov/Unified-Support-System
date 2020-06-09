@@ -13,13 +13,17 @@
     cursor: pointer;
 }
 
-.help-center__nav__a .display-block {
-    display: block;
-}
-
-.help-center__nav__technical-panel ul{
+.help-center__nav__technical-panel ul {
     padding: 0.6rem;
     margin: 0;
+}
+
+.help-center__nav__technical-panel.hide-details ul {
+    display: none;
+}
+
+.help-center__nav__technical-panel.hide-details {
+    flex-grow: 0;
 }
 
 .help-center__nav__technical-panel li {

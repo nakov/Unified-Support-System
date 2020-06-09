@@ -6,7 +6,7 @@ import { faCogs, faUser, faMapMarkedAlt, faFile, faBook } from '@fortawesome/fre
 
 import './TechnicalPanel.css';
 
-function TechnicalNavPanel() {
+function TechnicalNavPanel(props) {
 
     const linksData = [
         { navUrl: '/my', text: 'My', icon: faUser },
@@ -15,8 +15,15 @@ function TechnicalNavPanel() {
         { navUrl: '/course', text: 'Course', icon: faBook },
     ]
 
+    const { onPanelClick, unActivePanel } = props;
+
+    function changePanelName(name) {
+        onPanelClick(name);
+    }
+
     return (
-        <div className='help-center__nav__technical-panel'>
+        <div className={`help-center__nav__technical-panel ${unActivePanel}`}
+            onClick={() => changePanelName('Technical')}>
             <FontAwesomeIcon icon={faCogs} size="lg" />
             <h2>Technical</h2>
             <ul>
