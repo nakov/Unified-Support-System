@@ -15,15 +15,11 @@ function TechnicalNavPanel(props) {
         { navUrl: '/course', text: 'Course', icon: faBook },
     ]
 
-    const { onPanelClick, unActivePanel } = props;
-
-    function changePanelName(name) {
-        onPanelClick(name);
-    }
+    const { setActivePanel, unActivePanel } = props;
 
     return (
         <div className={`help-center__nav__technical-panel ${unActivePanel}`}
-            onClick={() => changePanelName('Technical')}>
+            onClick={() => setActivePanel('Technical')}>
             <FontAwesomeIcon icon={faCogs} size="lg" />
             <h2>Technical</h2>
             <ul>

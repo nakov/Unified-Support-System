@@ -19,9 +19,6 @@ function SideNavigation() {
     const { helpCenter, administrative, community } = panelNames;
     const [activePanel, setActivePanel] = useState('Help Center');
 
-    const onPanelClick = (name) => {
-        setActivePanel(name);
-    };
     const unActivePanel = activePanel === 'Help Center' || activePanel === 'Technical' ? '' : 'hide-details';
 
     return (
@@ -30,22 +27,22 @@ function SideNavigation() {
                 panelName={helpCenter}
                 icon={faHome}
                 navLink={'/'}
-                onPanelClick={onPanelClick}>
+                setActivePanel={setActivePanel}>
             </NavigationPanel>
             <TechnicalNavPanel
                 unActivePanel={unActivePanel}
-                onPanelClick={onPanelClick} />
+                setActivePanel={setActivePanel} />
             <NavigationPanel
                 panelName={administrative}
                 icon={faAddressCard}
                 navLink={'/administrative'}
-                onPanelClick={onPanelClick}>
+                setActivePanel={setActivePanel}>
             </NavigationPanel>
             <NavigationPanel
                 panelName={community}
                 icon={faUserFriends}
                 navLink={'/community'}
-                onPanelClick={onPanelClick}>
+                setActivePanel={setActivePanel}>
             </NavigationPanel>
         </nav>
     )
