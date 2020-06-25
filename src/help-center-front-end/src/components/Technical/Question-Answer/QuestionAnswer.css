@@ -78,3 +78,7 @@
     background-color: #777;
     cursor: pointer;
 }
+
+.ql-container {
+    height: 92%;
+}
